@@ -10,7 +10,7 @@ function MessageInput() {
     e.preventDefault()
     if(!message) return;
     await sendMessage(message)
-    sendMessage("")
+    setMessage("")
    }
   return (
     <form className='px-4 my-3' onSubmit={handleSubmit}>
