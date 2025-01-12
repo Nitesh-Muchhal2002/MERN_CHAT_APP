@@ -35,7 +35,7 @@ const useLogin = () => {
     } 
     
     finally {
-      setAuthUser(false);
+      setLoading(false);
     }
   };
   return{loading,login}
